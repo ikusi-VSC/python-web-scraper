@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Products - Page 2</title>
+</head>
+
+<body>
+
+<div class="products">
+
+    <div class="product">
+        <h2 class="title">USB Headphones</h2>
+        <span class="price">$39.99</span>
+        <span class="category" data-id="P003">Headphones</span>
+        <span class="rating">4.5</span>
+        <a class="detail-link" href=" ">Details</a >
+        <span class="reviews">64</span>
+    </div>
+
+    <div class="product">
+        <h2 class="title">Gaming Monitor</h2>
+        <span class="price">$199.99</span>
+        <span class="category" data-id="P004">Monitor</span>
+        <!-- 故意没有 rating -->
+        <a class="detail-link" href="products/p004.html">Details</a >
+        <span class="reviews">215</span>
+    </div>
+
+</div>
+
+<!-- 故意让 next 请求失败 -->
+<a class="next" href="not_exit.html">Next</a >
+
+<!-- 给备用分页机制使用 -->
+<a class="page" href="page1.html">1</a >
+<a class="page" href="page2.html">2</a >
+<a class="page" href="page3.html">3</a >
+
+</body>
+</html>
